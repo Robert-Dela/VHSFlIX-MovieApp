@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "bruno",
+      "email": "bruno@email.com",
+      "username": "mars",
+      "password": "bruno"
+    },
+    {
+      "name": "Robert Dakey",
+      "email": "eric@azubiafrica.org",
+      "username": "skyis",
+      "password": "12345678",
+      "id": 3
+    },
+    {
+      "name": "Prissy Asmah",
+      "email": "samuel.mensah@mail.com",
+      "username": "libert",
+      "password": "asdfhhrfgfh",
+      "id": 4
+    },
+    {
+      "name": "Malvin",
+      "email": "bobskyis315@gmail.com",
+      "username": "bluer",
+      "password": "bluerffddr",
+      "id": 5
+    },
+    {
+      "name": "Roland",
+      "email": "dakeyr135@gmail.com",
+      "username": "skyis",
+      "password": "skyisfere",
+      "id": 6
+    }
+  ]
+}

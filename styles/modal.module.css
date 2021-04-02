@@ -1,0 +1,114 @@
+.modal_wrapper {
+    width: 400px;
+    height: fit-content;
+    box-shadow: 0 5px 16px rgba(0, 0, 0, 0.2);
+    background: #fff;
+    color: rgba(78, 78, 78, 0.925);    
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+    position:relative;
+    z-index: 10;
+    border-radius: 10px;
+    left: 25%;
+  }
+  
+  .closeModalButton {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+    padding: 0;
+    z-index: 10;
+  }
+  
+.modal_header {
+    display: flex;
+    justify-content: left;
+    margin-top: 10px;
+    font-family: "Work Sans";
+    border-bottom: 1px solid #999;
+    height: 40px;
+  }
+
+.modal_header h5 {
+    margin-left: 20px;
+}
+  
+.form {
+    margin-left: 20px;
+    /* margin-top: -110px; */
+    font-size: 20px;
+    margin-right: 20px;
+  }
+
+.form_group {
+    margin-bottom: 1rem;
+}
+
+.form_group:last-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form_group:first-child {
+    margin-top: 1rem;
+}
+
+.form_input {
+    font-size: 1rem;
+    font-family: inherit;
+    color: inherit;
+    padding: 0.5rem 1rem;
+    border-radius: 2px;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #999;
+    width: 100%;
+    display: block;
+    transition: all .3s;
+}
+
+.form_input:focus {
+    outline: none;
+    box-shadow: 0 0.5rem 1rem rgba(10, 2, 2, 0.1);
+    border-bottom: 2px solid #ff1ac6b7; 
+}
+
+.form_input:focus:invalid {
+    border-bottom: 2px solid #fd3108; 
+}
+
+.form_input::webkit-input-placeholder {
+    color: #999; 
+}
+
+.form_label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 1rem;
+    /* margin-bottom: .3rem; */
+    display: block;
+
+}
+
+.btn {
+    background:#0a5eb1b7;
+    border: 1px solid #0a5eb1b7;
+    border-radius: 22px;
+    font-family: "WorkSans";    
+    padding: 4px 7px;
+    width: 100px;
+    text-decoration: none;
+    color: #fff; 
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #0a5eb1b7;
+}
