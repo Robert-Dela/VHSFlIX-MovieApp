@@ -12,15 +12,15 @@ import isEmail from "validator/lib/isEmail"
 
 export default function Modal({ showmodal, setshowmodal }){
 
-     //Enpoints and urls
-  
-     const add_user_url = `${API_BASE_URL}:${API_PORT}/${AddUser_endpoint}`;
-  
-     //handling User data 
-     const { register,
-             handleSubmit,
-             watch, 
-           } = useForm ();
+//Enpoints and urls
+
+const add_user_url = `${API_BASE_URL}:${API_PORT}/${AddUser_endpoint}`;
+
+//handling User data 
+const { register,
+        handleSubmit,
+        watch, 
+    } = useForm ();
    
 // Css Styling classnames
 const {

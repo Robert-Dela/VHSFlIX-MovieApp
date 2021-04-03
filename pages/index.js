@@ -24,9 +24,7 @@ const openModal = () => {
         </button>
 
         <Modal showmodal={showmodal} setshowmodal={setshowmodal} />
-        <br></br>
-        <br></br>
-
+      
         <div className={table}>
           <UserList/>
         </div>

@@ -12,7 +12,7 @@
   cursor: pointer;
   font-size: 16px;
   outline: none;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .btn:hover {
@@ -24,3 +24,16 @@
   margin-right: 8px;
 }
 
+.back_icon {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  display: inline;
+  justify-content: center;
+}
+
+.back_icon:hover {
+  text-decoration: none;
+  color: #000;
+}
