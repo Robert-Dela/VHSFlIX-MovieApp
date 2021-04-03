@@ -4,6 +4,7 @@ import {useState, useEffect} from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
 import { API_BASE_URL, API_PORT, AddUser_endpoint} from '../../../config'
 import styles from '../../../styles/display.module.css'
+import Link from 'next/link'
 
 
 export default function UserList(){
@@ -65,7 +66,9 @@ export default function UserList(){
                     <td>{username}</td>
                     
                     <td className={table_action}>
-                        <MdEdit className={table_btn}/>
+                        <Link href="/Admin/[id]" as={`/Admin/${id}`} >
+                            <MdEdit className={table_btn} />
+                        </Link>
 
                         <MdDelete className={table_btn} aria-label='Close modal'
                         onClick={() => removeData(id)}/>                        
