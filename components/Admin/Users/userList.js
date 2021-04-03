@@ -47,7 +47,7 @@ export default function UserList(){
     //Header function for user list
 
     const renderHeader = () => {
-        let headerElement = ['Id', 'Name', 'Email', 'Username', 'Action']
+        let headerElement = ['Name', 'Email', 'Username', 'Action']
 
         return headerElement.map((key, index) => {
             return <th key={index}>{key.toUpperCase()}</th>
@@ -60,7 +60,6 @@ export default function UserList(){
         return users && users.map(({ id, name, email, username }) => {
             return (
                 <tr key={id}>
-                    <td>{id}</td>
                     <td>{name}</td>
                     <td>{email}</td>
                     <td>{username}</td>

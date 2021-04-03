@@ -15,8 +15,8 @@
   .closeModalButton {
     cursor: pointer;
     position: absolute;
-    top: 10px;
-    right: 20px;
+    top: 12px;
+    right: 15px;
     width: 20px;
     height: 20px;
     padding: 0;
@@ -26,14 +26,16 @@
 .modal_header {
     display: flex;
     justify-content: left;
-    margin-top: 10px;
     font-family: "Work Sans";
     border-bottom: 1px solid #999;
-    height: 40px;
+    height: 50px;
+    align-items: center;
   }
 
 .modal_header h5 {
     margin-left: 20px;
+    /* margin-top: 10px; */
+    
 }
   
 .form {
@@ -95,8 +97,8 @@
 }
 
 .btn {
-    background:#0a5eb1b7;
-    border: 1px solid #0a5eb1b7;
+    background:#3399ffb7;
+    border: 1px solid #3399ffb7;
     border-radius: 22px;
     font-family: "WorkSans";    
     padding: 4px 7px;
@@ -110,5 +112,5 @@
 
 .btn:hover {
     background: #fff;
-    color: #0a5eb1b7;
+    color: #3399ffb7;
 }

@@ -1,8 +1,8 @@
 
 .btn {
   display: flex;
-  background:#0a5eb1b7;
-  border: 1px solid #0a5eb1b7;
+  background:#3399ffb7;
+  border: 1px solid #3399ffb7;
   border-radius: 2px;
   font-family: "WorkSans";    
   padding: 5px 10px;
@@ -17,7 +17,7 @@
 
 .btn:hover {
   background: #fff;
-  color: #0a5eb1b7;
+  color: #3399ffb7;
 }
 
 .add_icon {

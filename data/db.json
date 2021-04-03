@@ -34,6 +34,13 @@
       "username": "skyis",
       "password": "skyisfere",
       "id": 6
+    },
+    {
+      "name": "Rosemary",
+      "email": "rose@gmail.com",
+      "username": "Rose",
+      "password": "rose1234",
+      "id": 7
     }
   ]
 }

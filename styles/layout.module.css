@@ -4,6 +4,7 @@
     background-size: cover;
     height: 100%;
     margin: 0;
+    font-size: 20px;
 }
 
 .container {
@@ -14,7 +15,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    padding: 5% 0;
+    padding: 3% 0;
 }
 
 .dashboard {
@@ -54,11 +55,11 @@
 
 .main_content {
     grid-area: main;
-    background: #db3517b7;
-    padding: 40px 40px;
+    background: #9e9e9db7;
+    padding: 40px 100px 80px;
     width: fit-content;
     height: fit-content;
-    /* color: #fff; */
+    color: #fff;
 
 }
 

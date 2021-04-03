@@ -1,27 +1,32 @@
 .Table {
     border-collapse: collapse;
-    border: 4px solid #f9fafab7;
+    /* border: 4px solid #fff; */
     width: 100%;
     margin-bottom: 20px;
+    background: rgb(219, 217, 217);
+    color: #000;
 
 }
 
 .Table td,
 .Table th {
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #fff; */
   padding: 12px;
   padding-right: 50px;
   
 }
 
 .Table tr:hover {
-  background-color: #ddd;
+  background: #9e9e9db7;
+  color: #000;
+  ;
 }
 
 .Table th {
   text-align: left;
-  /* background: #0a5eb1b7; */
-  background: #f9fafab7;
+  background: #9e9e9db7;
+  /* background: #f9fafab7; */
+  color: #fff;
 
 }
 
